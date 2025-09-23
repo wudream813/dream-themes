@@ -1,0 +1,107 @@
+{
+  "name": "Dream Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e222a",
+    "editor.foreground": "#d0d4e4",
+    "editorCursor.foreground": "#ffcc66",
+    "editorLineNumber.foreground": "#555b66",
+    "editorLineNumber.activeForeground": "#93a4b6"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#5c6370" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#98c379" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#d19a66" }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": { "foreground": "#c678dd" }
+    },
+    {
+      "scope": ["storage.type"],
+      "settings": { "foreground": "#56b6c2" }
+    },
+    {
+      "scope": ["entity.name.class", "entity.name.type"],
+      "settings": { "foreground": "#61afef" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#e5c07b" }   // 函数定义
+    },
+    {
+      "scope": ["meta.function-call", "variable.function"],
+      "settings": { "foreground": "#61afef" }   // 函数调用
+    },
+    {
+      "scope": ["variable"],
+      "settings": { "foreground": "#e06c75" }   // 普通变量
+    },
+    {
+      "scope": ["entity.name.tag"],
+      "settings": { "foreground": "#c678dd" }   // HTML/XML 标签
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": { "foreground": "#56b6c2" }
+    },
+    {
+      "scope": ["entity.name.namespace", "support.other.namespace"],
+      "settings": { "foreground": "#4ec9b0" }   // std 命名空间
+    },
+    {
+      "scope": ["support.class", "support.type"],
+      "settings": { "foreground": "#56b6c2" }
+    },
+    {
+      "scope": ["support.function", "support.constant"],
+      "settings": { "foreground": "#61afef" }
+    },
+    {
+      "scope": ["keyword.operator"],
+      "settings": { "foreground": "#7adcff" }   // 运算符
+    },
+    {
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": { "foreground": "#61afef", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": { "fontStyle": "bold" }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": { "fontStyle": "" }
+    },
+    {
+      "scope": ["markup.inline.raw"],
+      "settings": { "foreground": "#d19a66" }
+    },
+    {
+      "scope": ["markup.quote"],
+      "settings": { "foreground": "#98c379" }
+    },
+    {
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#ff6ac1",  // 粉紫色，和字符串绿色形成对比
+        "fontStyle": "bold"
+      }
+    }
+  ],
+  "semanticHighlighting": true
+}

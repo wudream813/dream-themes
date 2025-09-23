@@ -1,0 +1,28 @@
+{
+  "name": "Dream Themes",
+  "displayName": "Dream Themes",
+  "description": "wu_dream 的 VScode 主题",
+  "version": "1.0.0",
+  "publisher": "wu_dream",
+  "icon": "./icon/icon.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dream Light",
+        "uiTheme": "vs",
+        "path": "./themes/dream-light-color-theme.json"
+      },
+      {
+        "label": "Dream Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dream-dark-color-theme.json"
+      }
+    ]
+  }
+}
