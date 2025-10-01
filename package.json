@@ -2,7 +2,7 @@
 	"name": "DreamThemes",
 	"displayName": "wu_dream 的 vscode 主题",
 	"description": "wu_dream 的主题",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"publisher": "wudream",
 	"license": "MIT",
 	"icon": "./icon.png",
@@ -11,7 +11,9 @@
 		"LightTheme",
 		"DarkTheme",
 		"DreamLight",
-		"DreamDark"
+		"DreamDark",
+		"DreamTheme",
+		"DreamThemes"
 	],
 	"repository": {
 		"type": "git",
@@ -19,13 +21,13 @@
 	},
 	"badges": [
 		{
-			"url": "https://img.shields.io/github/stars/wudream813/cpp-compiler",
-			"href": "https://github.com/wudream813/cpp-compiler",
+			"url": "https://img.shields.io/github/stars/wudream813/dream-themes",
+			"href": "https://github.com/wudream813/dream-themes",
 			"description": "给我点一个 star"
 		},
 		{
-			"url": "https://img.shields.io/visual-studio-marketplace/v/wudream.dream-cpp-compiler",
-			"href": "https://marketplace.visualstudio.com/items?itemName=wudream.dream-cpp-compiler",
+			"url": "https://img.shields.io/visual-studio-marketplace/v/wudream.DreamThemes",
+			"href": "https://marketplace.visualstudio.com/items?itemName=wudream.DreamThemes",
 			"description": "拓展版本"
 		}
 	],
