@@ -1,28 +1,53 @@
 {
-  "name": "Dream Themes",
-  "displayName": "Dream Themes",
-  "description": "wu_dream 的 VScode 主题",
-  "version": "1.0.0",
-  "publisher": "wu_dream",
-  "icon": "./icon/icon.png",
-  "engines": {
-    "vscode": "^1.70.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Dream Light",
-        "uiTheme": "vs",
-        "path": "./themes/dream-light-color-theme.json"
-      },
-      {
-        "label": "Dream Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dream-dark-color-theme.json"
-      }
-    ]
-  }
+	"name": "DreamThemes",
+	"displayName": "wu_dream 的 vscode 主题",
+	"description": "wu_dream 的主题",
+	"version": "2.0.0",
+	"publisher": "wudream",
+	"license": "MIT",
+	"icon": "./icon.png",
+	"keywords": [
+		"theme",
+		"LightTheme",
+		"DarkTheme",
+		"DreamLight",
+		"DreamDark"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wudream813/dream-themes.git"
+	},
+	"badges": [
+		{
+			"url": "https://img.shields.io/github/stars/wudream813/cpp-compiler",
+			"href": "https://github.com/wudream813/cpp-compiler",
+			"description": "给我点一个 star"
+		},
+		{
+			"url": "https://img.shields.io/visual-studio-marketplace/v/wudream.dream-cpp-compiler",
+			"href": "https://marketplace.visualstudio.com/items?itemName=wudream.dream-cpp-compiler",
+			"description": "拓展版本"
+		}
+	],
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dream Light",
+				"uiTheme": "vs",
+				"path": "./themes/DreamLight.json"
+			},
+			{
+				"label": "Dream Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DreamDark.json"
+			}
+		]
+	}
 }
